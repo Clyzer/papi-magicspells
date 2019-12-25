@@ -3,13 +3,13 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.extendedclip.placeholderapi.expansions</groupId>
-    <artifactId>example-expansion</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <groupId>com.clyzer.magicspells.placeholders</groupId>
+    <artifactId>magic-expansion</artifactId>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>Expansion-Example</name>
-    <description>This is an example expansion for PlaceholderAPI</description>
+    <name>Magic-Expansion</name>
+    <description>An expansion for PlaceholderAPI</description>
 
     <repositories>
         <repository>
@@ -37,12 +37,6 @@
             <groupId>me.clip</groupId>
             <artifactId>placeholderapi</artifactId>
             <version>2.9.1</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>me.clip.deluxetags</groupId>
-            <artifactId>deluxetags</artifactId>
-            <version>1.7.1</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
